@@ -1,0 +1,142 @@
+(footprint "VLCF4020"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.37 -2.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fce3b096-2bf5-49b2-acb0-90ed1c7af614")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "VLCF4020"
+		(at 2.88 -1.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "37d61c12-6bf1-45b9-8055-0ec60f90450b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18c6d093-6612-4efb-b0df-243cbbcf2d81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b3920f4-c3c0-4fb8-8e61-259de4bf338d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "731ab5ca-feed-4d6d-b997-6c24bdff0526")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -5.01 -0.45) (xy -1.11 -0.45) (xy -1.11 0.6) (xy -1.81 1.15) (xy -4.31 1.15) (xy -5.01 0.6)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "91643cce-538a-4cfd-bb0d-487c716c34e0")
+	)
+	(fp_poly
+		(pts
+			(xy -1.11 -1.95) (xy -5.01 -1.95) (xy -5.01 -3) (xy -4.31 -3.55) (xy -1.81 -3.55) (xy -1.11 -3)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "9a7515d6-8d72-4b08-9e57-00f43f403870")
+	)
+	(fp_rect
+		(start -5.06 -3.19)
+		(end -1.06 0.81)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "991b32c6-0393-4456-a56a-0cf5ce794fc3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "525294fb-334e-4a16-a2d4-101f6d958525")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.1 -2.79)
+		(size 2.286 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "875d0548-c34e-430f-ba21-aa840f7d8427")
+	)
+	(pad "2" smd roundrect
+		(at -3.07 0.47)
+		(size 2.286 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "31d44d2a-1b17-4fb1-8a15-a2a854ee41d6")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_APV_ANR4020.wrl"
+		(offset
+			(xyz -3 1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
